@@ -1,4 +1,4 @@
-import { RenderingCancelledException } from 'pdfjs-dist';
+import { RenderingCancelledException } from '@damankj/pdfjs-dist';
 
 export default {
   getDestination: () => new Promise((resolve, reject) => reject(new RenderingCancelledException())),

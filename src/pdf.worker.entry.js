@@ -8,4 +8,4 @@
  */
 
 (typeof window !== 'undefined' ? window : {}).pdfjsWorker =
-  require('pdfjs-dist/build/pdf.worker.js');
+  require('@damankj/pdfjs-dist/build/pdf.worker.js');

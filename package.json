@@ -1,5 +1,5 @@
 {
-  "name": "react-pdf",
+  "name": "@damankj/react-pdf",
   "version": "4.0.0-beta.2",
   "description": "Display PDFs in your React app as easily as if they were images.",
   "main": "dist/entry.js",
@@ -37,43 +37,16 @@
     "pdf-viewer",
     "react"
   ],
-  "author": {
-    "name": "Wojciech Maj",
-    "email": "kontakt@wojtekmaj.pl"
-  },
+  "author": "damankj",
   "contributors": [
-    {
-      "name": "Anenth",
-      "email": "anenthvishnu@gmail.com"
-    },
-    {
-      "name": "Artur Termenji",
-      "email": "atermenji@gmail.com"
-    },
-    {
-      "name": "Bart Van Houtte",
-      "email": "bart.van.houtte@ading.be"
-    },
-    {
-      "name": "Felipe Lacerda",
-      "email": "fegolac@gmail.com"
-    },
-    {
-      "name": "Julia Kieserman",
-      "email": "kieserman.julia@gmail.com"
-    },
-    {
-      "name": "Lucas Simkins",
-      "email": "lucas.simkins@gmail.com"
-    },
-    {
-      "name": "Niklas Närhinen",
-      "email": "niklas@narhinen.net"
-    },
-    {
-      "name": "Thomas McCarthy",
-      "email": "tom@tomm.cc"
-    }
+    "Anenth <anenthvishnu@gmail.com>",
+    "Artur Termenji <atermenji@gmail.com>",
+    "Bart Van Houtte <bart.van.houtte@ading.be>",
+    "Felipe Lacerda <fegolac@gmail.com>",
+    "Julia Kieserman <kieserman.julia@gmail.com>",
+    "Lucas Simkins <lucas.simkins@gmail.com>",
+    "Niklas Närhinen <niklas@narhinen.net>",
+    "Thomas McCarthy <tom@tomm.cc>"
   ],
   "license": "MIT",
   "dependencies": {
@@ -120,6 +93,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wojtekmaj/react-pdf.git"
+    "url": "git+https://github.com/KJDavis/react-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KJDavis/react-pdf/issues"
+  },
+  "homepage": "https://github.com/KJDavis/react-pdf#readme",
+  "directories": {
+    "test": "test"
   }
 }
