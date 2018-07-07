@@ -49,7 +49,7 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: './index.html' },
       { from: './test.pdf' },
-      { from: 'node_modules/pdfjs-dist/cmaps/', to: 'cmaps/' },
+      { from: 'node_modules/@damankj/pdfjs-dist/cmaps/', to: 'cmaps/' },
     ]),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
